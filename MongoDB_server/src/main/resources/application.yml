@@ -1,0 +1,15 @@
+#springboot path configuration¬
+server:
+    contextPath: /rest/
+    port: 8081
+# MONGODB
+spring:
+  data:
+    mongodb:
+      database: admin
+      host: localhost
+      username: admin
+      password: toor
+      port: 27017
+      repositories:
+        enabled: true
